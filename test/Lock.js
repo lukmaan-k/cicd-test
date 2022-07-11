@@ -64,7 +64,7 @@ describe("Lock", function () {
         const { lock } = await loadFixture(deployOneYearLockFixture);
 
         await expect(lock.withdraw()).to.be.revertedWith(
-          "You can't withdraw yet"
+          "heh"
         );
       });
 
